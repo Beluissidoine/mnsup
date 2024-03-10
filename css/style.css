@@ -82,12 +82,19 @@ body {
         }
 
 @media screen and (max-width: 900px) {
-    .carte-centrale{
-        margin-top: 200px;
+    body {
+        font-size: 16px;
     }
+
+    /* Centrez le texte d'accueil */
+    .texte-accueil {
+        text-align: center;
+    }
+
+    /* Ajustez la largeur des cartes pour qu'elles prennent toute la largeur */
     .carte {
-        width: 50%;
-        display: block;
+        width: 100%;
+        margin: 10px 0;
     }
     
 }
