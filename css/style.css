@@ -84,17 +84,22 @@ body {
 @media screen and (max-width: 900px) {
     body {
         font-size: 16px;
+        text-align: center;
     }
 
     /* Centrez le texte d'accueil */
     .texte-accueil {
-        text-align: center;
+        /* text-align: center; */
+        margin-bottom: 20px;
+        margin-top: -15px;
+        text-align: left;
     }
 
     /* Ajustez la largeur des cartes pour qu'elles prennent toute la largeur */
     .carte {
         width: 100%;
         margin: 10px 0;
+        margin-top: 80px;
     }
     
 }
